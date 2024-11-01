@@ -107,11 +107,11 @@ body {
     display: none;
 }
 
-@madia(max-width: 600px){
-    .card{
+@media (min-width: 600px) {
+  .card {
     width: 100%;
     max-width: 350px;
     padding: 15px 5px;
-
-    }
+  }
 }
+
